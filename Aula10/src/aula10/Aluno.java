@@ -20,6 +20,7 @@ public class Aluno extends Pessoa {
     }
     
     public void cancelarMatr(){
+        System.out.println("Matrícula será cancelada!");
         this.setMatr(0);
         this.setCurso("Nenhum.");
     }
