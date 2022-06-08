@@ -11,7 +11,7 @@ public class Funcionario extends Pessoa {
         this.setor = setor;
     }
 
-    public boolean setTrabalhando() {
+    public boolean getTrabalhando() {
         return trabalhando;
     }
 
@@ -19,7 +19,7 @@ public class Funcionario extends Pessoa {
         this.trabalhando = trabalhando;
     }
     
-    public void mudarTrabalho(String t){
-        this.setSetor(t);
+    public void mudarTrabalho(){
+        this.trabalhando = ! this.trabalhando;
     }
 }
