@@ -31,4 +31,9 @@ public class Pessoa {
     public void fazerAniv(){
         this.setIdade(this.getIdade()+1);
     }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" + "nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + '}';
+    }
 }
